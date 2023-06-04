@@ -1,0 +1,40 @@
+.aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--body-color);
+    border-right: 2px solid hsla(347, 100%, 68%, 0.411);
+    padding: 2rem;
+    width: 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.nav__link {
+    font-size: 2rem;
+    color: var(--title-color);
+    font-weight: var(--font-bold);
+}
+
+.nav__link:hover {
+    color: hsl(347, 100%, 68%);
+}
+
+.copyright {
+    color:rgb(61, 6, 57);
+    font-size: var(--small-font-size);
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+
+}
+.ds-logo{ text-transform: uppercase; font-size: 16px; letter-spacing: 1px; color: #000; display: flex; align-items: center; }
+.ds-logo span{ display:flex; align-items: center; justify-content: center; width: 100px; height: 40px; background-color: #af6666; border-radius: 4px; color: #FFF; font-size: 20px; font-weight: 100; text-align: center; }
