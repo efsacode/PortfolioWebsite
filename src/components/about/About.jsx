@@ -1,13 +1,15 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg";
+import Image from "../../assets/avatar-2.jpeg";
 
 const About = () => {
     return (
         <section className="about container section" id='about'>
             
         <div className="about__container grid">
-            <img src={Image} alt="" className="about__img"/>
+            <div className="img_cover">
+                <img src={Image} alt="" className="about__img"/>
+            </div>
             <div className="about__data grid">
                 
                 <div className="about__info">
