@@ -8,10 +8,11 @@ import Image5 from "../../assets/csharp.svg";
 const data = [  
     {
         id: 1,
-        image: Image1,
+        image: Image2,
         title: "Web Developing & Designing",
         desc: "I started to Web Developing with Django framework of Python Programming Language. I have also knowledge of HTML, CSS, JavaScript, ReactJS.",
     },
+
     {
         id: 2,
         image: Image2,
@@ -19,26 +20,27 @@ const data = [
         desc: "I have knowledge of UX/UI Designing. I have also knowledge of Figma, Canva, Adobe Photoshop.",
     },
 
+    
     {
         id: 3,
-        image: Image3,
-        title: "Drawing & Painting",
-        desc: "I have knowledge of Drawing & Painting. I mostly use Procreate for my digital drawings. You can visit my drawing page!",
-    },  
-
-    {
-        id: 4,
-        image: Image4,
+        image: Image2,
         title: "Arduino Programming",
         desc:  "I have knowledge of Arduino Programming. I have also knowledge of Arduino IDE, C Programming Language, LTSpice. I made some projects in my internship with Arduino.",
     },
 
     {
-        id: 5,
-        image: Image5,
+        id: 4,
+        image: Image2,
         title: "C,C++,C# Programming",
         desc: "I have knowledge of C,C++,C# Programming LanguageS. I have also knowledge of Visual Studio and Visual Studio Code. I made some school projects with C#.",
     },
+    {
+        id: 5,
+        image: Image1,
+        title: "Drawing & Painting",
+        desc: "I have knowledge of Drawing & Painting. I mostly use Procreate for my digital drawings. You can visit my drawing page!",
+    },  
+
 
 ];
 

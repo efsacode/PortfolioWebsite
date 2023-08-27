@@ -3,9 +3,13 @@ import "./resume.css";
 
 const Resume = () => {
     return (
-        <div>
-            <h1>Resume</h1>
-        </div>
+        <section className="resume container section" id="resume">
+            <h2 className="section__title">Experience</h2>
+
+            <div className="resume__container grid">
+                <div className="timeline grid"></div>
+            </div>
+        </section>
     )
 }
 export default Resume

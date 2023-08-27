@@ -1,0 +1,41 @@
+.section__title{
+    font-size: var(--h1-font-size);
+    dislplay: flex;
+    font-weight: var(--font-bold);
+    margin-bottom: 5%;
+}
+
+.services__container{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.services__card{
+    text-align: center;
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    background-color: var(--body-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.services__card:hover{
+    transform: translateY(-10px);
+}
+
+.sevices__img{
+    margin-bottom: 1.25rem;
+}
+
+.services__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.25rem;
+    font-weight: var(--font-semi-bold);
+}
+
+.services__description{
+    font-size: var(--normal-font-size);
+    color: var(--text-color-light);
+    line-height: 1.5;
+}
+ 
+
