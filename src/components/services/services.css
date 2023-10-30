@@ -1,6 +1,6 @@
 .section__title{
     font-size: var(--h1-font-size);
-    dislplay: flex;
+    display: flex;
     font-weight: var(--font-bold);
     margin-bottom: 5%;
 }

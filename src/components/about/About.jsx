@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.jpeg";
+import cv from "../../assets/cv.pdf";
 
 const About = () => {
     return (
@@ -14,9 +15,11 @@ const About = () => {
                 
                 <div className="about__info">
                     <h2 className="section__title-about">About Me</h2>
-                    <p className="about__description">I am Efsa Dilşat Algül from Ankara, Turkey. I am currently pursuing my studies in Computer Engineering at Ostim Technical University, where I am gaining comprehensive knowledge and practical skills in various aspects of the field. I have always been fascinated by technology and its limitless potential to shape the future. Being a part of the vibrant academic community at Ostim Technical University allows me to explore my passion for computer engineering while collaborating with like-minded individuals and staying updated with the latest advancements in the industry. I am excited to apply my knowledge and contribute to innovative projects that can make a positive impact on society.</p>
+                    <p className="about__description">I am Efsa Dilşat Algül from Ankara, Turkey. I am currently pursuing my studies in Computer Engineering at Ostim Technical University. I'm pursuing a minor in Software Engineering. 
+                    I am gaining comprehensive knowledge and practical skills in various aspects of the field. I have always been fascinated by technology and its limitless potential to shape the future. I am excited to apply my knowledge and contribute to innovative projects that can make a positive impact on technology.</p>
                     <div className="btn_cover">
-                        <a href="" className="btn">Download CV</a>
+                        
+                        <a href={cv} download="Efsa Dilşat Algül.pdf" target="_blank" class="btn">Download CV</a>
                     </div>
                 
                 </div>

@@ -10,14 +10,14 @@ const data = [
         id: 1,
         image: Image2,
         title: "Web Developing & Designing",
-        desc: "I started to Web Developing with Django framework of Python Programming Language. I have also knowledge of HTML, CSS, JavaScript, ReactJS.",
+        desc: "I started to Web Developing with HTML, CSS, JavaScript, ReactJS. I have also knowledge of Django framework of Python Programming Language and a little bit of .Net framework.",
     },
 
     {
         id: 2,
         image: Image2,
         title: "UX/UI Design",
-        desc: "I have knowledge of UX/UI Designing. I have also knowledge of Figma, Canva, Adobe Photoshop.",
+        desc: "I have knowledge of UX/UI Designing. I have also knowledge of Figma, Canva.",
     },
 
     
@@ -25,21 +25,28 @@ const data = [
         id: 3,
         image: Image2,
         title: "Arduino Programming",
-        desc:  "I have knowledge of Arduino Programming. I have also knowledge of Arduino IDE, C Programming Language, LTSpice. I made some projects in my internship with Arduino.",
+        desc:  "I have knowledge of Arduino Programming. I have also knowledge of Arduino IDE, C Programming Language. I made some projects in my internship education with Arduino.",
     },
 
     {
         id: 4,
         image: Image2,
-        title: "C,C++,C# Programming",
-        desc: "I have knowledge of C,C++,C# Programming LanguageS. I have also knowledge of Visual Studio and Visual Studio Code. I made some school projects with C#.",
+        title: "C, C++, C# Programming",
+        desc: "I have knowledge of C,C++,C# Programming Languages. I have also knowledge of Visual Studio, Visual Studio Code, İntelliJ, DevC and Eclipse . I made some school projects with C# in my second year.",
     },
     {
         id: 5,
+        image: Image2,
+        title: "Python Programming",
+        desc: "I have knowledge of Python Programming. I attended some bootcamps about Deep Learning and Data Science. I'm still learning about Data Science like NumPy, Pandas, Matplotlib and other libraries.",
+    },  
+    {
+        id: 6,
         image: Image1,
         title: "Drawing & Painting",
-        desc: "I have knowledge of Drawing & Painting. I mostly use Procreate for my digital drawings. You can visit my drawing page!",
+        desc: "I have passion about Drawing & Painting. I mostly use Procreate for my digital drawings. You can visit my drawing page!",
     },  
+    
 
 
 ];

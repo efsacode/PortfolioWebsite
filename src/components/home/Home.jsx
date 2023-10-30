@@ -11,10 +11,11 @@ const Home = () => {
             <div className="intro"> 
               <img src={Me} alt="" className='home__img'/>
               <h1 className="home__name">Efsa Dilşat Algül</h1>
-              <span className="home__education">Computer Engineer, Software Devoloper, Designer</span>
+              <span className="home__education">Computer Engineer Student, Software Devoloping</span>
               <HeaderSocials/>   
             
-              <a href="#contact" className="btn">Contact Me!</a>
+              
+              <a href="mailto:dlstalgl@gmail.com" class="btn">Contact me!</a>
              
               <ScrollDown/>
             
